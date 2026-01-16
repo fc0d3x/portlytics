@@ -1,7 +1,11 @@
-# Portlytics 
+<p align="center">
+  <h1 align="center">Portlytics</h1>
+  <p align="center">
+    Advanced Network Port Analytics & Vulnerability Intelligence
+  </p>
+</p>
 
-
-is an advanced network reconnaissance and vulnerability analytics tool designed to identify exposed services, detect misconfigurations, and surface potential attack vectors across a target system.
+Portlytics is a modular network reconnaissance and vulnerability intelligence tool designed to identify exposed services, detect misconfigurations, and surface potential attack vectors across target systems.
 
 It combines port scanning, service and version detection, CVE discovery, credential hygiene checks, OS fingerprinting, and basic web application testing into a single, modular command-line utility.
 
