@@ -121,3 +121,5 @@ Example
 ```
 python portlytics.py X.X.X.X 1-65535 --profile stealth / fast / aggressive
 ```
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
