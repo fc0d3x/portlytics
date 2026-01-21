@@ -101,10 +101,6 @@ https://github.com/fc0d3x/portlytics.git
 cd portlytics
 
 
-python3 -m venv myenv
-source myenv/bin/activate
-
-
 pip install -r requirements.txt
 ```
 
@@ -113,7 +109,7 @@ pip install -r requirements.txt
 
 
 ```
-python portlytics.py <target_ip> <port_range> --profile <profile>
+sudo python3 portlytics.py <target_ip> <port_range> --profile <profile>
 ```
 
 Example
@@ -121,5 +117,29 @@ Example
 ```
 python portlytics.py X.X.X.X 1-65535 --profile stealth / fast / aggressive
 ```
+## Scan Profiles:
+
+stealth: Maximum stealth with fragmentation, decoys, and timing delays.
+
+fast: Balanced speed and reliability (default).
+
+aggressive: Maximum speed with no stealth.
+
+## Available Options:
+
+--profile: Select the scan profile (stealth, fast, aggressive).
+
+--udp: Enable UDP port scanning.
+
+--no-osint: Skip OSINT lookups (Shodan, theHarvester).
+
+--no-nuclei: Skip Nuclei vulnerability scanning.
+
+--no-github: Skip GitHub lookups (advisories, exploits).
+
+--no-searchsploit: Skip ExploitDB search (searchsploit).
+
+--no-metaspploit: Skip Metasploit module search.
+
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
